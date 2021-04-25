@@ -39,7 +39,7 @@ mail($to_email,$subject,$message,$headers);
 
 $servername = "localhost";//localhost
 $username = "root";//l
-$password = "YMHkA4ByQlsv";//password //YMHkA4ByQlsv
+$password = "***";//
 $valid = 0;
 $value = 0;
 $mobile = '';
@@ -57,8 +57,8 @@ if(isset($_POST['exampleInputName'])) {
 
     require_once "Mail.php";
     $host = "ssl://smtp.zoho.com";
-    $username = "sreeram.k@rambuzz.in";
-    $password = "sreeram.K@2020";
+    $username = "****";
+    $password = "****";
     $port = "465";
     $to = $_POST['exampleInputEmail1'];
     $email_from = "sreeram.k@rambuzz.in";
