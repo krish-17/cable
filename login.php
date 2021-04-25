@@ -16,8 +16,8 @@
 </head>
 <?php
 $servername = "localhost";
-$username = "wordpressuser";
-$password = "password";
+$username = "**";
+$password = "***";
 $valid = 0;
 
 try {
